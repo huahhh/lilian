@@ -1,0 +1,12 @@
+version: '2'
+
+services:
+  lilian:
+    image: lilian
+    container_name: lilian
+    restart: always
+    environment:
+      config_env: apollo://*.*.*.*:*?appid=lilian&cluster=online
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - /home/spider/logs/lilian:/home/spider/lilian/log

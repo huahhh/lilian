@@ -1,0 +1,17 @@
+urllib3==1.25.8
+tenacity
+lxml
+pymongo
+redis
+APScheduler
+pyssdb
+requests
+kafka
+oss2
+superlance
+PyExecJS
+DingtalkChatbot
+elasticsearch
+timeout_decorator
+esdk-obs-python
+msgpack
